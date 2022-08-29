@@ -1,4 +1,2 @@
-FROM alpine
-RUN apk update
-RUN apk add curl
-CMD curl http://ifcfg.co
+FROM ubuntu:20.04
+CMD echo $PORT
